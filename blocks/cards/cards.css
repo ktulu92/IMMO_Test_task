@@ -1,22 +1,19 @@
-
 @import url(./__item/cards__item.css);
 @import url(./__subtitle/cards__subtitle.css);
 @import url(./__title/cards__title.css);
 @import url(./__percents/cards__percents.css);
 
-.cards{
-    display: flex;       
-    margin: 0;
-    padding:0;
-    list-style-type: none;    
-    max-width: 386px;
-    min-height: 74px;
+.cards {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  max-width: 386px;
+  min-height: 74px;
 }
 
-@media (max-width: 776px) and (min-width: 319px){
-.cards{
+@media (max-width: 776px) and (min-width: 319px) {
+  .cards {
     flex-direction: column;
-
-}
-
+  }
 }
