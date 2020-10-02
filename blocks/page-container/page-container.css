@@ -5,7 +5,8 @@
   margin: auto;
   max-height: 322px;
   background-image: url(../../images/bg-image.svg);
-  background-position: center;
+  background-position:left;
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 725px) and (min-width: 319px) {
