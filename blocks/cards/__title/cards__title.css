@@ -1,0 +1,22 @@
+.cards__title {
+  margin: 0;
+
+  font-family: Pragmatica Slabserif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #001837;
+}
+
+@media (max-width: 776px) and (min-width: 319px) {
+  .cards__title {
+    font-family: Pragmatica Slabserif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

@@ -1,0 +1,21 @@
+.header__title {
+  margin: 0;
+  width: 198px;
+  font-family: Arial; /* Pragmatica Slabserif;- шрифт платный!, поэтому  Arial */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+  color: #001837;
+}
+
+@media (max-width: 425px) and (min-width: 319px) {
+  .header__title {
+    color: #011689;
+    font-family: Arial; /* Pragmatica Slabserif;- шрифт платный!, поэтому  Arial */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

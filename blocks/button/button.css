@@ -1,0 +1,36 @@
+.button {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 12px;
+  width: 300px;
+  height: 48px;
+  margin-top: 32px;
+  border: 1px solid #001689;
+  box-sizing: border-box;
+  border-radius: 2px;
+  color: #001689;
+}
+
+.button:hover {
+  color: white;
+  background: #001689;
+}
+
+@media (max-width: 420px) and (min-width: 319px) {
+  .button {
+    min-width: 298px;
+    min-height: 40px;
+    margin-top: 32px;
+    background: #001689;
+    margin-right: auto;
+    color: white;
+    font-size: 12px;
+  }
+
+  .button:hover {
+    color: #001689;
+    background: white;
+  }
+}

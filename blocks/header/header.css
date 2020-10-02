@@ -1,0 +1,14 @@
+@import url(./__title/header__title.css);
+@import url(./__subtitle/header__subtitle.css);
+
+.header {
+  width: 280px;
+  max-height: 67px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 776px) and (min-width: 319px) {
+  .header {
+    margin-bottom: 16px;
+  }
+}

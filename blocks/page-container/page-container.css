@@ -1,0 +1,19 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  padding: 37px 0 32px 40px;
+  margin: auto;
+  max-height: 322px;
+  background-image: url(../../images/bg-image.svg);
+  background-position: center;
+}
+
+@media (max-width: 725px) and (min-width: 319px) {
+  .page-container {
+    padding: 16px 12px 12px 12px;
+    background-size: 160px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/bg-image.png);
+    background-position: right;
+  }
+}

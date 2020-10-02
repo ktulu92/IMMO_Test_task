@@ -1,0 +1,18 @@
+.cards__percents {
+  font-family: Arial;   /*Необходимо согласовать с дизайнером. Pragmatica Slabserif платный, поэтому Arial */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #001837;
+}
+
+@media (max-width: 776px) and (min-width: 319px) {
+  .cards__percents {
+    font-family: Arial;   /*Необходимо согласовать с дизайнером. Pragmatica Slabserif платный, поэтому Arial */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
